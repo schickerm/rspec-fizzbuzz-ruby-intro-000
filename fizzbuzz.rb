@@ -13,4 +13,7 @@ def fizzbuzz
   fizz_15 = fizzbuzz(15)
      expect(fizz_15).to eq("FizzBuzz")
   
+  fizz_4 = fizzbuzz(4)
+ 
+    expect(fizz_4).to eq(nil)
 end
