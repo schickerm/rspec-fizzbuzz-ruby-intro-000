@@ -3,11 +3,11 @@
 
 def fizzbuzz
   
-  fizzbuzz(3) = "Fizz"
+  fizzbuzz(3) == "Fizz"
   
-  fizzbuzz(5) = "Buzz"
+  fizzbuzz(5) == "Buzz"
   
-  fizzbuzz(15) = "FizzBuzz"
+  fizzbuzz(15) == "FizzBuzz"
   
-  fizzbuzz(4) = "nil"
+  fizzbuzz(4) == "nil"
 end
