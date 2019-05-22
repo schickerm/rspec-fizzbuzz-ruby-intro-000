@@ -8,6 +8,6 @@ def fizzbuzz(Integer)
     puts "Buzz"
   elsif Integer / 15 == 0
     puts "FizzBuzz"
-  elsif Integer / 4 == 0
+  else Integer / 4 == 0
     puts "nil"
 end
