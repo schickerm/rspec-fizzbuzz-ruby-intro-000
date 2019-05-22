@@ -4,10 +4,7 @@ def fizzbuzz
   fizz_3 = fizzbuzz(3)
   expect(fizz_3).to eq("Fizz")
   
-  fizz_3 = fizzbuzz(3)
-  expect(fizz_3).to eq("Fizz")
-  
-  fizz_5 = fizzbuzz(5)
+   fizz_5 = fizzbuzz(5)
      expect(fizz_5).to eq("Buzz")
   
   fizz_15 = fizzbuzz(15)
