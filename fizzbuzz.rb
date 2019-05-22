@@ -2,15 +2,12 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(Integer)
-  if Integer / 3 == 
-  
-  
-  
-  fizzbuzz(3) == "Fizz"
-  
-  fizzbuzz(5) == "Buzz"
-  
-  fizzbuzz(15) == "FizzBuzz"
-  
-  fizzbuzz(4) == "nil"
+  if Integer / 3 == Integer
+    puts "Fizz"
+  elsif Integer / 5 == Integer
+    puts "Buzz"
+  elsif Integer / 15 == Integer
+    puts "FizzBuzz"
+  elsif Integer / 4 == Integer
+    puts "nil"
 end
