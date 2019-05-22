@@ -4,10 +4,10 @@
 def fizzbuzz(Integer)
   if Integer / 3 == 0
     puts "Fizz"
-  elsif Integer / 5 == Integer
+  elsif Integer / 5 == 0
     puts "Buzz"
-  elsif Integer / 15 == Integer
+  elsif Integer / 15 == 0
     puts "FizzBuzz"
-  elsif Integer / 4 == Integer
+  elsif Integer / 4 == 0
     puts "nil"
 end
