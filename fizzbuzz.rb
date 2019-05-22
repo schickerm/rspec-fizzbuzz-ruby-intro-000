@@ -14,6 +14,5 @@ def fizzbuzz
      expect(fizz_15).to eq("FizzBuzz")
   
   fizz_4 = fizzbuzz(4)
- 
-    expect(fizz_4).to eq(nil)
+     expect(fizz_4).to eq(nil)
 end
